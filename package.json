@@ -1,0 +1,24 @@
+{
+  "name": "toprakbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord-canvas": "^1.4.1",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "os": "^0.1.1",
+    "parse-ms": "^3.0.0",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.3",
+    "sarah.db": "^1.0.2",
+    "speedtest-net": "^2.2.0"
+  }
+}
