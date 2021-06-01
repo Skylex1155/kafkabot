@@ -1,1 +1,3 @@
-Kafka Açık Kaynak Kodlu Bot
+# Kafka Açık Kaynak Kodlu Bot
+ Hiçbir Şekilde İzin Almadan Yayınlanamaz Satılamaz Aksi Takdirde,
+ # Adli İşlen Başlatılacaktır !
