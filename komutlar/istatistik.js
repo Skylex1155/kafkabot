@@ -11,9 +11,9 @@ module.exports = {
    const rexuszaman = moment.duration(bot.uptime).format(" D [gün], H [saat], m [dakika], s [saniye]");
    const rexusistatistikler = new Discord.MessageEmbed()
   .setColor("#66ff00")
-  .setFooter('Vortex ©️ 2021 Tüm Hakları Saklıdır. ', bot.user.avatarURL)
-  .addField("Vortex **İstatistikleri**", "Sunucunuz İçin En İyisi")
-  .addField("<:dcdev:824245425644503080>**Botun Geliştiricisi**",  " <@723980580634493059>")
+  .setFooter('Kafka ©️ 2021 Tüm Hakları Saklıdır. ', bot.user.avatarURL)
+  .addField("Kafka **İstatistikleri**", "Sunucunuz İçin En İyisi")
+  .addField("<:dcdev:824245425644503080>**Botun Geliştiricisi**",  " <@855353076415725601>")
   .addField("<:OnaylanmPng:823122480486940692>**Bellek kullanımı**", (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + ' MB', true)  
   .addField("<a:yakarok:823103196494561290>**Çalışma süresi**", rexuszaman)
   .addField("<a:ElSallamaGif:823103212097503232>**Kullanıcılar**" , bot.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString(), true)
